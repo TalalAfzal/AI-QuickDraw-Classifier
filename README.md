@@ -11,17 +11,7 @@ A Streamlit web application that uses a trained Keras model to recognize hand-dr
 
 ## Available Classes
 
-The model can recognize the following 10 classes:
-- The Eiffel Tower
-- The Great Wall of China  
-- The Mona Lisa
-- aircraft carrier
-- airplane
-- alarm clock
-- ambulance
-- angel
-- animal migration
-- ant
+The model can recognize 50 Classes
 
 ## Installation
 
@@ -74,4 +64,5 @@ The model can recognize the following 10 classes:
 
 - **Model loading error**: Ensure `sketch_classifier.h5` is in the correct directory
 - **Canvas not working**: Check if `streamlit-drawable-canvas` is properly installed
+
 - **Memory issues**: The model is cached, so it only loads once per session 
